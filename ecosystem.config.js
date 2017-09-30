@@ -10,7 +10,7 @@ module.exports = {
       key: './.ssh/aws-test-server.pem',
       ref: 'origin/master',
       repo: 'https://github.com/michaelnuovo/aws-server.git',
-      path: '/home/ec2-user/test',
+      path: '/home/ec2-user/server',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
