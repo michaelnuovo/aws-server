@@ -17,3 +17,7 @@ var tcpServer = net.createServer(function(socket) {
             socket.write('Server Reply: '+data)
         })
 });
+
+tcpServer.listen(3000, function(){
+    console.log("Listenting on port : "+3000)
+});
