@@ -1,3 +1,4 @@
 commands.txt
 .ssh
 .DS_Store
+.ecosystem.config.js
